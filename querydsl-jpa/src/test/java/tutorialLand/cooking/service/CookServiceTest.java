@@ -53,9 +53,9 @@ public class CookServiceTest {
         Cook joinCook = cookService.searchCookChefJoin(spaghettiUid);
 
         // then
-        assertThat(notJoinCook.getChef().getName(), notNullValue());
         assertThat(joinCook.getUid(), is(2L));
 
+        assertThat(notJoinCook.getChef().getName(), notNullValue());
 //        -- LazyException
 //        assertThat(joinCook.getChef().getName(), notNullValue());
     }
