@@ -1,4 +1,4 @@
-package tutorialLand.cooking.servie;
+package tutorialLand.cooking.service;
 
 import com.querydsl.core.Tuple;
 import org.springframework.beans.factory.annotation.Autowired;
